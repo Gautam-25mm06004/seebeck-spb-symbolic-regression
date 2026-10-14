@@ -1,0 +1,24 @@
+# environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# data, models, large outputs (download or regenerate instead)
+data/
+*.zip
+*.mat
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+*.parquet
+*.db
+*.db-wal
+*.db-shm
+*.svs
+*.tif
+node_modules/
+.env
