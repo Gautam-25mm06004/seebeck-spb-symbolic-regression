@@ -1,5 +1,10 @@
 # Correcting the SPB Model for Seebeck Coefficient Prediction via Symbolic Regression
 
+> **Status: work in progress.** This is my ongoing M.Tech thesis. The pipeline is still being developed: the SPB baseline
+> calibration is in progress and results may change. Some notebooks were written for Google Colab (they use Colab-only
+> paths and modules, or download data at run time) and may not run unchanged on a local machine. Notebooks without
+> saved outputs have not yet been re-run in their final form.
+
 M.Tech thesis work (IIT Bhubaneswar, supervisor Dr. Sivaiah Bathula). Builds an experimental thermoelectric dataset from Starrydata2, calibrates the single parabolic band (SPB) model per material family, freezes a leakage-safe paper-grouped evaluation, and learns an interpretable symbolic-regression correction to the SPB baseline. Supporting notebooks audit the available datasets (Starrydata2, JARVIS-DFT, literature-mined databases) and prepare SISSO-ready DFT datasets.
 
 ## Contents
